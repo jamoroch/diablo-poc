@@ -1,0 +1,26 @@
+{
+  "name": "diablo-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamoroch/diablo-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamoroch/diablo-poc/issues"
+  },
+  "homepage": "https://github.com/jamoroch/diablo-poc#readme",
+  "dependencies": {
+    "crypto-random-string": "^4.0.0",
+    "express": "^4.17.1"
+  },
+  "type": "module"
+}
