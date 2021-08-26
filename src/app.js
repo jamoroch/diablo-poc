@@ -12,7 +12,7 @@ app.post('/product/id', (req, res) => {
     const length = req.body.generationSchema && req.body.generationSchema == 'FOO' ? 10 : req.body.generationSchema && req.body.generationSchema == 'BAR' ? 5 : -1;
     const type = req.body.generationSchema && req.body.generationSchema == 'FOO' ? 'distinguishable' : req.body.generationSchema && req.body.generationSchema == 'BAR' ? 'numeric' : -1;
     const generationOptions = {
-        batchQuantity: req.body.batchQuantity || 0,
+        batchQuantity: req.body.batchQuantity || 1,
         length,
         type
     }

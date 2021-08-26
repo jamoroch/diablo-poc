@@ -1,7 +1,7 @@
 import cryptoRandomString from 'crypto-random-string';
 const idPrefix = '_';
 export const generateId = (generationOptions, formatOptions) => {
-    const numberOfIds = generationOptions.batchQuantity || 0;
+    const numberOfIds = generationOptions.batchQuantity || 1;
     if (numberOfIds > 1) {
         const ids = [];
         for (let i = 0; i < numberOfIds; i++) {
